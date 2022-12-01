@@ -1,0 +1,114 @@
+/* Navigetion*/
+.nav-list{
+   flex-direction: column;
+}
+
+.navbar{
+   flex-direction: column;
+    transition: all 0.8s ease-out;
+    height: 145px;
+ }
+
+ .rightnav{
+   text-align: center;
+}
+
+ .burger{
+   display: block;
+}
+
+.h-nav-resp{
+   height: 75px;
+}
+
+.b-class-resp{
+   opacity: 0;
+}
+
+.navbar ul li {
+   margin: 5px;
+}
+
+.navbar ul li a{
+   font-size: 1rem;
+   padding: 0 7px;
+   padding-bottom: 8px;
+}
+ 
+ /* Home Section  */
+ 
+ #home{
+     height: 338px;
+     padding: 2px 12px;
+ }
+ #home::before{
+     height: 480px;
+ }
+ #home p{
+    font-size: 15px;
+ }
+ /* About Us section  */
+
+#aboutus{
+    flex-direction: column;
+    margin: 15px;
+ }
+ 
+ #aboutus .box{
+    padding: 12px;
+    margin: 2px 0px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+ }
+ #aboutus .box img{
+    width: 54px;
+    padding: 2px 6px;
+    height: auto;
+ }
+ 
+ #aboutus .box p{
+    font-size: 10px;
+ }
+
+ /* contact section  */
+ #contact-box form{
+    width: 80%;
+ 
+ }
+ #contact-box label {
+    font-size: 15px;
+ }
+ #contact-box input,
+    #contact-box textarea{
+       font-size: 10px;
+       padding: 6px;
+    }
+
+ /* Client Section  */
+ #clients{
+    flex-wrap: wrap;
+ }
+ #clients img{
+      width: 54px;
+      padding: 2px 6px;
+      height: auto;
+    }
+ 
+ /* footer  */
+ 
+ /* Utility Classes  */
+ .h-primary{
+    font-size: 28px;
+ }
+ .h-secondary {
+    font-size: 1.3rem;
+    padding: 5px;
+ }
+ .btn{
+    font-size: 13px;
+    padding: 4px 8px ;
+ }
+ .button{
+    font-size: 13px;
+    padding: 2px 7px;
+ }
